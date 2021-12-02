@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuZona">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btzona"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/backmenu"
+            android:elevation="30dp"
+            android:onClick="onRegistro"
+            android:text="@string/registro"
+            android:textColor="@color/teal_700" />
+
+        <Button
+            android:id="@+id/btntipo"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/backmenu"
+            android:elevation="30dp"
+            android:onClick="Modificar"
+            android:text="@string/modificar"
+            android:textColor="@color/teal_700" />
+
+        <Button
+            android:id="@+id/btncliente"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/backmenu"
+            android:elevation="30dp"
+            android:onClick="onSalir"
+            android:text="@string/salir"
+            android:textColor="@color/teal_700" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

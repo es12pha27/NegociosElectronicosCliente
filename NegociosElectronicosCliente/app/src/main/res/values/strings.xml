@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NegociosElectronicosCliente</string>
+    <string name="btnZona">Zona</string>
+    <string name="btnTipo">Tipo de Cliente</string>
+    <string name="btnCliente">Cliente</string>
+    <string name="rgtroZona">Registro Zona</string>
+    <string name="cod">Codigo  </string>
+    <string name="nom">Nombre  </string>
+    <string name="guardar">Guardar  </string>
+    <string name="registro">Registro </string>
+    <string name="modificar">Modificar </string>
+    <string name="salir">Salir  </string>
+</resources>
